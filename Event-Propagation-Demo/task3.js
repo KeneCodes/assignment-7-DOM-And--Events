@@ -11,10 +11,12 @@ grandparent.addEventListener("click", function () {
   console.log("Grandparent div was clicked.");
 });
 
+// Log a message when the parent div is clicked
 parent.addEventListener("click", function () {
   console.log("Parent div was clicked.");
 });
 
+// Log a message when the child div is clicked
 child.addEventListener("click", function () {
   console.log("Child div was clicked.");
 });
@@ -23,8 +25,6 @@ child.addEventListener("click", function () {
 stopBtn.addEventListener("click", function (event) {
   event.stopPropagation();
 
-  // stopPropagation() prevents the click event
-  // from bubbling up to the parent elements.
-
+  // stopPropagation() prevents the click event from bubbling up to the parent elements.
   console.log("Button clicked. Event propagation stopped.");
 });
