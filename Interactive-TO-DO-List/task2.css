@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  background: url("/img/task1\ img.png");
+  color: #cbd3e4;
+  width: 100%;
+  max-width: 800px;
+  margin: 15rem auto;
+  padding: 2rem;
+  /* border: 2px solid red; */
+}
+
+.to-do-list {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.task-input {
+  width: 90%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.btn {
+  padding: 1rem 1.8rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #11ba19;
+  color: #f5f6f7;
+}
+
+.btn:hover {
+  background-color: #09750f;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.task-list {
+  list-style: none;
+  margin-top: 2.5rem;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+.delete-btn {
+  background: #dc143c;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+}

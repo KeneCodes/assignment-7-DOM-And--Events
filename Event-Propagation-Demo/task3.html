@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="task3.css" rel="stylesheet" />
+    <title>Task 3 - Event Propagation Demo</title>
+  </head>
+  <!-- body -->
+  <body>
+    <h1>Event Propagation Demo</h1>
+    <p>Open the browser console and click on the boxes below.</p>
+
+    <div class="grandparent">
+      Grandparent
+      <div class="parent">
+        Parent
+        <div class="child">
+          Child
+          <br /><br />
+          <button class="stop-btn">Stop Propagation</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="task3.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  background: url("/img/task1\ img.png");
+  color: #cbd3e4;
+  width: 100%;
+  max-width: 800px;
+  margin: 15rem auto;
+  padding: 2rem;
+  /* border: 2px solid red; */
+}
+
+.topic {
+  font-size: 4.2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.content {
+  font-size: 1.7rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.last-paragraph {
+  margin-bottom: 3rem;
+}
+
+/* a7f3d0 */
+.btn {
+  font-size: 1.4rem;
+  background-color: #ffc107;
+  color: rgb(25, 72, 138);
+  font-weight: 600;
+  padding: 1.5rem 2.5rem;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e7b10f;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
